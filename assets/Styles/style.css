@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* main page */
+
+
+/* header */
+
+.header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.link__header {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.link__header:hover {
+    color: #2161ff;
+}
+
+/* body */
+
+.title {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.list__item {
+    color:darkorange;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.list__text {
+    color: #000000;
+}
+
+.images__block {
+    margin-top: 25px;
+}
+
+.images {
+    width: 200px;
+    height: 400px;
+
+    margin: 0 20px;
+}
+
+/* otherpages (for other pages) */
+
+.container {
+    min-height: calc(100vh - 70px);
+}
+
+.block__photo {
+    float: left;
+    margin: 0 15px;
+}
+
+/* footer (for other pages) */
+
+.footer {
+    height: 50px;
+    position: relative;
+ }
+ 
+ .link__footer {
+     text-decoration: none;
+     color: #000000;
+     margin: 0;
+ 
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-right: -50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .link__footer:hover {
+     color: #2161ff;
+ }
+
+/* about me page */
+
+.title__page {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.my__photo {
+    height: 250px;
+    width: 250px;
+}
+
+/* mybike page */
+
+.bike {
+    text-align: center;
+}
+
+.bike__photo {
+    height: 500px;
+    width: 1100px;
+}
+
+/* difference page */
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 15px;
+}
+
+th {
+    text-align: center;
+    background-color: #808080;
+}
+
+td {
+    text-align: justify;
+}
+
+td:nth-child(odd) {
+    background-color: #2161ff;
+}
+
+/* parts page */
+
+.part__photo {
+    width: 500px;
+    height: 250px;
+}
+
+.part__block {
+    margin-bottom: 30px;
+}
+
